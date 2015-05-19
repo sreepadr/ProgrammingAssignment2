@@ -7,7 +7,7 @@
 ## 2. cacheSolve: This function computes the inverse of the above "matrix" 
 ##    or retrieves it from cache if available.
 ##
-## NOTE: See section SAMPLE RUNS at the end of the script.
+## NOTE: See section SAMPLE RUNS at the end of the script for test outputs.
 ###############################################################################
 
 ## FUNCTION makeCacheMatrix (x = matrix())
