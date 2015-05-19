@@ -16,7 +16,7 @@
 ## x - holds the input matrix
 ## inv - holds the inverse of the matrix
 ## set() - sets the input matrix to x and caches it
-## get() - returns the matrix held by x
+## get() - returns the matrix, held by x
 ## setInverse() - sets the inverse of matrix held by x to inv and caches it
 ## getInverse () - returns the inverse, held by inv
 
