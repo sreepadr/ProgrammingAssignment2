@@ -1,9 +1,9 @@
 ############################################################################### 
 ## SCRIPT cachematrix.R
-##
+## 
 ## There are two functions in this script:
 ## 1. makeCacheMatrix: This function creates a special "matrix" object that 
-##    can cache its inverse, and retruns a list of "get" and "set" functions.
+##    can cache its inverse, and returns a list of "get" and "set" functions.
 ## 2. cacheSolve: This function computes the inverse of the above "matrix" 
 ##    or retrieves it from cache if available.
 ##
@@ -11,7 +11,7 @@
 ###############################################################################
 
 ## FUNCTION makeCacheMatrix (x = matrix())
-## Creates a special "matrix" object that can cache its inverse, and retruns 
+## Creates a special "matrix" object that can cache its inverse, and returns 
 ## a list of "get" and "set" functions for the matrix and its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
