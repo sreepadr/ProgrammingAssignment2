@@ -6,6 +6,7 @@
 ##    can cache its inverse, and returns a list of "get" and "set" functions.
 ## 2. cacheSolve: This function computes the inverse of the above "matrix" 
 ##    or retrieves it from cache if available, and returns it.
+##    Throws error if the input matrix is not invertible.
 ##
 ## NOTE: See section SAMPLE RUN at the end of the script for test outputs.
 ###############################################################################
@@ -45,6 +46,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Computes and returns the inverse of the matrix returned by makeCacheMatrix.
 ## If the inverse has already been computed (and the matrix has not changed),
 ## then retrieves the inverse from the cache and returns it.
+## Throws error while calling solve() if the input matrix is not invertible.
 
 cacheSolve <- function(x, ...) {
     inv <- x$getInverse()               ## get the inverse from cache...
